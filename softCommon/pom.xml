@@ -6,14 +6,12 @@
 
     <name>softCommon</name>
     <description>a common utils pacaking for the service.</description>
-    <groupId>com.fjm.soft</groupId>
     <artifactId>soft-common</artifactId>
-    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
-        <artifactId>soft-web</artifactId>
         <groupId>com.fjm.soft</groupId>
+        <artifactId>soft-web</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

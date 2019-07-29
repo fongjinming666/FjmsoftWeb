@@ -6,13 +6,11 @@
 
     <name>softApi</name>
     <description>api service for the platform.</description>
-    <groupId>com.fjm.soft</groupId>
     <artifactId>soft-api</artifactId>
-    <version>1.0-SNAPSHOT</version>
 
     <parent>
-        <artifactId>soft-web</artifactId>
         <groupId>com.fjm.soft</groupId>
+        <artifactId>soft-web</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -29,6 +27,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
         </dependency>
     </dependencies>
 </project>
